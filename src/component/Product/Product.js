@@ -13,7 +13,7 @@ const Product = ({ product, handleAddToCart }) => {
         <p>Sellar: {sellar}</p>
         <p>Rating: {ratings}</p>
       </div>
-      <button onClick={() => handleAddToCart(id)} className="btn-cart">
+      <button onClick={() => handleAddToCart(product)} className="btn-cart">
         <p>Add to cart</p>
         <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
       </button>
