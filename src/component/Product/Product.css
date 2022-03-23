@@ -1,0 +1,45 @@
+.singal-product {
+  border: 1px solid #95a0a7;
+  border-radius: 8px;
+  position: relative;
+}
+.singal-product img {
+  padding: 7px;
+  border-radius: 8px;
+  width: 286px;
+  height: 286px;
+}
+.product-info {
+  padding: 0 14px;
+}
+.product-name {
+  font-family: "Lato";
+  margin-top: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  color: #0e161a;
+}
+.product-info {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.btn-cart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  background-color: #ffe0b3;
+
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+}
+.btn-cart p {
+  margin-right: 5px;
+}
+.btn-cart:hover {
+  background-color: orange;
+}

@@ -1,0 +1,28 @@
+.full-nav {
+  background-color: #1c2b35;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container img {
+  cursor: pointer;
+}
+.navChild a {
+  text-decoration: none;
+  margin-right: 36px;
+  color: #ffffff;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+}
+.navChild a:hover {
+  color: orange;
+}
